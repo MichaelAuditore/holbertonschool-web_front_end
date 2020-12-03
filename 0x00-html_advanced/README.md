@@ -178,7 +178,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * Copy the content of 35-index.html into 36-index.html
 
 
-### [37. Social icons](./index.html)
+### [37. Social icons](./36-index.html)
 * Using 36-index.html
 
 
