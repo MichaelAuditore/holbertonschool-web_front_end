@@ -15,7 +15,7 @@ body {
 }
 
 /* All elements with the class visually-hidden should have their display to none */
-.visuality-hidden {
+.visually-hidden {
   display: none;
 }
 
