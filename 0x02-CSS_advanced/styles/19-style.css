@@ -172,7 +172,7 @@ a:active {
 }
 
 /* Ul elements inside rows class */
-.row ul {
+ul.row {
   margin: 0;
   padding: 0;
   list-style: none;
