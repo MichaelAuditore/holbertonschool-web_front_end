@@ -9,8 +9,8 @@ body {
   color: #161616;
 }
 
-/*     For all anchor elements, set the foreground color value to #161616 */
-* {
+/* For all anchor elements, set the foreground color value to #161616 */
+a {
   color: #161616;
 }
 
