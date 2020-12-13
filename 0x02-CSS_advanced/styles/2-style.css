@@ -1,0 +1,30 @@
+/* fluid behavior for html tag */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* For the body, set the foreground color value to #161616 */
+body {
+  color: #161616;
+}
+
+/*     For all anchor elements, set the foreground color value to #161616 */
+* {
+  color: #161616;
+}
+
+/* All elements with the class visually-hidden should have their display to none */
+.visuality-hidden {
+  display: none;
+}
+
+/* All elements with the class card-category, should have their foreground color set to #D73953 */
+.card-category {
+  color: #d73953;
+}
+
+/* All elements with the class section-tagline should have their foreground color set to #D73953 */
+.section-tagline {
+  color: #d73953;
+}
