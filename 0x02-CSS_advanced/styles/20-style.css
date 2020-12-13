@@ -178,6 +178,13 @@ ul.row {
   list-style: none;
 }
 
+/* Rule after row class */
+.row::after {
+  content: none;
+  display: table;
+  clear: both;
+}
+
 .col-1-3 {
   width: 33.33%;
   float: left;
@@ -198,13 +205,6 @@ ul.row {
 
 .footer ul {
   text-align: right;
-}
-
-/* Rule after row class */
-.row::after {
-  content: none;
-  display: table;
-  clear: both;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
