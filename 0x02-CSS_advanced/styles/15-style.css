@@ -26,8 +26,7 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
 /* fluid behavior for html tag */
