@@ -1,5 +1,14 @@
-/* fluid behavior for html tag */
+/* Target the root element and define the following custom properties:  */
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: black;
+}
 
+/* fluid behavior for html tag */
 html {
   scroll-behavior: smooth;
 }
@@ -27,14 +36,4 @@ a {
 /* All elements with the class section-tagline should have their foreground color set to #D73953 */
 .section-tagline {
   color: var(--color-primary);
-}
-
-/* Target the root element and define the following custom properties:  */
-:root {
-  --color-primary: #d73953;
-  --color-black: #090909;
-  --color-white: #ffffff;
-  --color-light-grey: #f3f3f3;
-  --color-dark-grey: #353535;
-  --text-color: black;
 }
