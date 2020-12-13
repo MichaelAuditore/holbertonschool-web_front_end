@@ -134,6 +134,12 @@ a:active {
   color: var(--section-title-color);
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Container class declarations */
 .container {
   width: 960px;
@@ -176,13 +182,6 @@ ul.row {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-/* Rule after row class */
-.row::after {
-  content: none;
-  display: table;
-  clear: both;
 }
 
 .col-1-3 {
