@@ -201,10 +201,10 @@ ul.row {
 }
 
 /* Rule after row class */
-.row:after {
+.row::after {
   content: none;
   display: table;
-  float: none;
+  clear: both;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
