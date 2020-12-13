@@ -25,7 +25,10 @@
   --section-title-color: var(--color-black);
 }
 
-* {
+/* Universal Rule */
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
