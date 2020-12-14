@@ -337,8 +337,7 @@ ul.row {
   color: var(--color-primary);
 }
 
-.card-outer,
-.card-work {
+.card-work .card-outer {
   position: relative;
   overflow: hidden;
 }
@@ -358,7 +357,7 @@ ul.row {
   z-index: 1;
 }
 
-.card-inner:hover {
+.card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -376,7 +375,7 @@ ul.row {
   padding-top: 45%;
 }
 
-.card-work .card-title::after {
+.card-work .card-title a::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -385,7 +384,7 @@ ul.row {
   content: "";
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-title {
   opacity: 1;
 }
 
