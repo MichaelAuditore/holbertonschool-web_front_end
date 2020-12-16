@@ -1,0 +1,7 @@
+/* Applying style when screen width change and it is smaller than 320px */
+h1 {
+  font-size: 20px;
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+  }
+}
