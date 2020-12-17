@@ -52,12 +52,11 @@ $sort-order: a b c d e f g h i j k l m n o p q r s t u v w x y z !default;
 @function sorting($list, $low, $high) {
   /* sorting - Order a list recursivelly */
   @if ($low < $high) {
-    $arr: partition($list, $low, $high);
-    $pi: nth($arr, 1);
-    $list: nth($arr, 2);
+    $pi: partition($list, $low, $high);
+    $list: nth($pi, 2);
 
-    $list: sorting($list, $low, $pi - 1);
-    $list: sorting($list, $pi + 1, $high);
+    $list: sorting($list, $low, (nth($pi, 1)) - 1);
+    $list: sorting($list, nth($pi, 1) + 1, $high);
   }
   @return $list;
 }
